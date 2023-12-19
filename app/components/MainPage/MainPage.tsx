@@ -23,9 +23,9 @@ const MainPage = () => {
           <HeroTwo />
         </div>
       </div>
-      <div className='flex lg:justify-end'>
+      {/* <div className='flex lg:justify-end'>
         <Sponsors />
-      </div>
+      </div> */}
       <div className='relative'>
         <Services />
         <AboutUs />

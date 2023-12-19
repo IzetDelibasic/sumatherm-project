@@ -13,7 +13,7 @@ const AboutUs = () => {
       <div className='flex flex-col lg:w-[40%] w-[90%] lg:mx-auto lg:items-center mx-auto'>
         <div className='text-center'>
           <div className='mb-[0.5rem] lg:mb-[1rem] font-medium'>ABOUT US</div>
-          <div className='mb-[1rem] lg:mb-[2rem] text-[2rem] lg:text-[3.5rem] lg:leading-none leading-tight font-medium'>A team of reliable and experienced contractors</div>
+          <div className='mb-[1rem] lg:mb-[2rem] text-[2rem] lg:text-[4.5rem] lg:leading-none leading-tight font-medium font-title'>Our employees are our potential!</div>
         </div>
       </div>
       <div className='w-[90%] lg:w-[60%] h-[10rem] lg:h-[24rem] bg-cover bg-center mx-auto relative' style={{ backgroundImage: `url(${aboutUsImage})` }}>
@@ -30,9 +30,10 @@ const AboutUs = () => {
           <div className='bg-white'></div>
         </div>
       </div>
-      <div className='w-[90%] lg:w-[60%] flex flex-col lg:flex-row justify-center items-center mx-auto my-8 lg:my-16 text-center lg:text-start'>
-        <div className='w-full lg:w-[50%] mb-[1rem] lg:mb-0 text-gray-500 font-medium'>Lorem ipsum dolor sit amet consectetur vel risus interdum bibendum fringilla massa pellentesque pellentesque elit sed nisi tristique a diam rutrum sodales senectus tellus in vivamus nunc iaculis morbi.</div>
-        <div className='w-full lg:w-[50%] text-gray-500 font-medium'>Lorem ipsum dolor sit amet consectetur vel risus interdum bibendum fringilla massa pellentesque pellentesque elit sed nisi tristique a diam rutrum sodales senectus tellus in vivamus nunc iaculis morbi.</div>
+      <div className='w-[90%] lg:w-[60%] flex flex-col justify-center items-center mx-auto my-8 lg:my-16 text-center lg:text-start'>
+        <div className='w-full lg:w-[50%] lg:mb-0 text-black font-medium font-about mb-[1.5rem]'>The name Sumatherm GmbH stands for a family-run company with an extensive customer-oriented range of services based on partnership.
+        It is important to us that you are satisfied with our work. For this we offer you quality, reliability and a fair partnership.</div>
+        <div className='w-full lg:w-[50%] text-black font-medium font-about'>We offer practical and tailor-made solutions from a single source and are happy to cater to the specific wishes of our clients. I.e. from finding the system, including a profitability study, to planning and execution.</div>
       </div>
       <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8 w-[90%] lg:w-[60%] mx-auto'>
         {aboutUsConstant.map((service, index) => (

@@ -11,24 +11,44 @@ export const headerLinks = [
     },
     // ABOUT
     {
-      title: 'ABOUT',
+      title: 'ABOUT US',
       items: [
         {
-          name: 'ABOUT',
+          name: 'ABOUT US',
           href: '/about',
         },
       ],
     },
-    // BLOG
+    // COMPANIES
     {
-      title: 'BLOG',
+      title: 'COMPANIES',
       items: [
         {
-          name: 'BLOG',
-          href: '/blog',
+          name: 'COMPANIES',
+          href: '/companies',
         },
       ],
     },
+    // CERTIFICATE
+    {
+      title: 'CERTIFICATE',
+      items: [
+        {
+          name: 'CERTIFICATE',
+          href: '/certificate',
+        },
+      ],
+    },
+    // CAREER
+    {
+        title: 'CAREER',
+        items: [
+          {
+            name: 'CAREER',
+            href: '/career',
+          },
+        ],
+      },
     // CONTACT
     {
       title: 'CONTACT',
@@ -39,45 +59,6 @@ export const headerLinks = [
         },
       ],
     },
-    // PAGES
-    {
-        title: 'PAGES',
-        items: [
-          {
-            name: 'PAGES',
-            href: '/pages',
-          },
-        ],
-      },
-    // SERVICES
-    {
-      title: 'SERVICES',
-      items: [
-        {
-          name: 'SERVICES',
-          href: '/services',
-        },
-      ],
-    },
-    // WORK
-    {
-      title: 'WORK',
-      items: [
-        {
-          name: 'WORK',
-          href: '/work',
-        },
-      ],
-    },
-    // CART
-    {
-      title: 'CART',
-      items: [
-        {
-          name: 'CART(0)',
-          href: '/cart',
-        },
-      ],
-    },
+
   ];
   

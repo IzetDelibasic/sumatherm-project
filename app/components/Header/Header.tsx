@@ -12,8 +12,8 @@ import NavBurger from "@/app/components/NavBurger";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const leftLinks = headerLinks.slice(0, 4);
-  const rightLinks = headerLinks.slice(4);
+  const leftLinks = headerLinks.slice(0, 3);
+  const rightLinks = headerLinks.slice(3);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -31,7 +31,7 @@ const Header = () => {
             <React.Fragment key={index}>
               {linkGroup.items.map((linkItem, i) => (
                 <Link key={i} href={linkItem.href} passHref>
-                  <span className="text-white font-medium hover:text-gray-500 transition duration-300 ease-in-out">
+                  <span className="text-white font-medium hover:text-red-600 transition duration-300 ease-in-out">
                     {linkItem.name}
                   </span>
                 </Link>
@@ -63,7 +63,7 @@ const Header = () => {
               {linkGroup.items.map((linkItem, i) => (
                 <Link key={i} href={linkItem.href}>
                   <p
-                    className={`text-gray-800 text-sm font-medium hover:text-gray-500 transition duration-300 ease-in-out cursor-pointer block pt-2 pl-4`}
+                    className={`text-gray-800 text-sm font-medium hover:text-red-600 transition duration-300 ease-in-out cursor-pointer block pt-2 pl-4`}
                   >
                     {linkItem.name}
                   </p>
@@ -84,7 +84,7 @@ const Header = () => {
               {linkGroup.items.map((linkItem, i) => (
                 <Link key={i} href={linkItem.href} passHref>
                   <span
-                    className={`text-white font-medium hover:text-gray-500 transition duration-300 ease-in-out`}
+                    className={`text-white font-medium hover:text-red-600 transition duration-300 ease-in-out`}
                   >
                     {linkItem.name}
                   </span>
