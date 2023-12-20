@@ -1,49 +1,35 @@
 import { MdArrowOutward } from "react-icons/md";
-import { projectPlanning } from '@/utils/constants/imagesConstants';
+import { projectPlanning , projectTechnology, projectPersonal, projectBuilding } from '@/utils/constants/imagesConstants';
 
 
 export const servicesLinks = [
     {
-      title: 'Project planning',
+      title: 'Sumatherm Industrial Plant Construction',
       href: '/service1',
-      icon: projectPlanning, 
+      icon: projectTechnology, 
       arrow: MdArrowOutward,
-      text: 'Lorem ipsum dolor sit amet consectetur ut facilisis sit nulla sem arcu penatibus.',
+      text: 'Welding and Testing technology, Manufacturing, Chemistry & Petrochemistry, Rnergy systems and Power plants, Pharma & Food.',
     },
     {
-      title: 'Project management',
+      title: 'Sumatherm Building Technology Services',
       href: '/service2',
-      icon: projectPlanning, 
+      icon: projectBuilding, 
       arrow: MdArrowOutward, 
-      text: 'Lorem ipsum dolor sit amet consectetur ut facilisis sit nulla sem arcu penatibus.',
+      text: 'Electrical engineering, Heating, Sanitary, Ventilation,  Strong and weak current, Security, Fire Alarm Systems, IT networks, SmartHome, PV Systems, Cellular networks',
     },
     {
-      title: 'General contracting',
+      title: 'Sumatherm Personal',
       href: '/service3',
-      icon: projectPlanning, 
+      icon: projectPersonal, 
       arrow: MdArrowOutward,
-      text: 'Lorem ipsum dolor sit amet consectetur ut facilisis sit nulla sem arcu penatibus.',
+      text: 'Personal services',
     },
     {
-      title: 'Interior design',
+      title: 'Sumatherm Technology',
       href: '/service4',
       icon: projectPlanning, 
       arrow: MdArrowOutward,
-      text: 'Lorem ipsum dolor sit amet consectetur ut facilisis sit nulla sem arcu penatibus.',
-    },
-    {
-      title: 'Exterior design',
-      href: '/service5',
-      icon: projectPlanning, 
-      arrow: MdArrowOutward,
-      text: 'Lorem ipsum dolor sit amet consectetur ut facilisis sit nulla sem arcu penatibus.',
-    },
-    {
-      title: 'Space planning',
-      href: '/service6',
-      icon: projectPlanning, 
-      arrow: MdArrowOutward,
-      text: 'Lorem ipsum dolor sit amet consectetur ut facilisis sit nulla sem arcu penatibus.',
+      text: 'Production of EMC line filters for household appliances and industrial systems, digital electronics. We produce everything in this domain at the customers request.',
     },
   ];
   

@@ -18,6 +18,13 @@ export const twitchIcon = "/images/twitchIcon.webp";
 
 export const projectPlanning = "/images/projectPlanning.webp";
 
+export const projectBuilding = "/images/projectBuilding.webp";
+
+export const projectTechnology = "/images/projectTechnology.webp";
+
+export const projectPersonal = "/images/projectPersonal.webp";
+
+
 export const machineImage = "/images/machineImage.webp"
 
 export const projectOne = "/images/projectOne.webp"

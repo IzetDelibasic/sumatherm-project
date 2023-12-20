@@ -39,7 +39,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-3">
+        <div className="grid gap-8 lg:grid-cols-2">
           {servicesLinks.map((service, index) => (
             <a
               key={index}
@@ -55,8 +55,8 @@ const Services = () => {
                   height={64}
                 />
               </div>
-              <div className="flex items-center justify-between mb-[10px] group-hover:text-hyellow-100">
-                <h2 className="text-[1.2rem] lg:text-[1.5rem] py-[0.25rem] lg:py-[0.5rem] font-semibold group-hover:text-yellow-500 transition-all duration-300">
+              <div className="flex items-center justify-between mb-[10px] group-hover:text-red-600">
+                <h2 className="text-[1.2rem] lg:text-[1.5rem] py-[0.25rem] lg:py-[0.5rem] font-semibold group-hover:text-red-600 transition-all duration-300">
                   {service.title}
                 </h2>
                 <MdArrowOutward
