@@ -24,8 +24,7 @@ export const projectTechnology = "/images/projectTechnology.webp";
 
 export const projectPersonal = "/images/projectPersonal.webp";
 
-
-export const machineImage = "/images/machineImage.webp"
+export const workerImage = "/images/workerImage.webp"
 
 export const projectOne = "/images/projectOne.webp"
 

@@ -45,19 +45,19 @@ const ProjectsComponent = () => {
     className='lg:w-[60%] mx-auto my-[10rem] w-[90%]'>
       <div className='lg:flex lg:items-end lg:justify-between top-[4rem] right-[6rem] text-center lg:text-start'>
         <div className='flex flex-col lg:w-[50%]'>
-          <div className='mb-[0.5rem] font-medium'>RECENT WORK</div>
-          <div className='mb-[0.5rem] lg:text-[54px] text-[30px] font-medium'>Take a look at our most recent project</div>
+          <div className='mb-[0.5rem] font-medium'>EXCLUSIVE BENEFITS</div>
+          <div className='mb-[0.5rem] lg:text-[54px] text-[30px] font-medium'>You should choose us</div>
         </div>
         <ProjectButtons />
       </div>
       <div className='border-b-2 border-gray-200 pt-10 mx-auto'></div>
-      <div className='flex flex-col lg:flex-row justify-between items-center mx-auto my-10 group text-center lg:text-start'>
+      <div className='flex flex-col lg:flex-row justify-between items-center mx-auto my-10 group text-center lg:text-start h-[40rem]'>
         <div className='lg:w-[50%] overflow-hidden'>
           <Image
             src={currentProject.image}
             alt={currentProject.title}
-            width={500} 
-            height={500}
+            width={800} 
+            height={800}
             layout="responsive" 
             className='object-contain transform transition-transform duration-300 group-hover:scale-[130%] group-hover:rotate-[-10deg]'
           />
@@ -65,27 +65,27 @@ const ProjectsComponent = () => {
         <div className='flex flex-col lg:w-[40%] mt-6 lg:mt-0'>
           <div className='h-[60%]'>
             <div className='mb-2 font-medium text-[18px] break-words'>
-              <FaCircle className="text-hyellow-100 inline-block mr-1 text-[7px]" />
+              <FaCircle className="text-red-600 inline-block mr-1 text-[7px]" />
               {currentProject.title}
             </div>
-            <div className='mb-2 text-[28px] lg:text-[38px] font-medium break-words lg:group-hover:text-hyellow-100 lg:group-hover:transition-all lg:group-hover:duration-300 '>
+            <div className='mb-2 text-[28px] lg:text-[38px] font-medium break-words lg:group-hover:text-red-600 lg:group-hover:transition-all lg:group-hover:duration-300 '>
               {currentProject.heading}
             </div>
           </div>
           <div className='text-gray-500 font-medium'>{currentProject.text}</div>
           <div className='border-b-2 border-gray-300 my-5 lg:my-10'></div>
           <div className='flex justify-between text-[38px] lg:text-[32px]'>
-            <button className='hover:text-hyellow-100 transition-none' onClick={handlePrev}>
+            <button className='hover:text-red-600 transition-none' onClick={handlePrev}>
               <MdOutlineArrowBack className='' />
             </button>
-            <button className='hover:text-hyellow-100 transition-none' onClick={handleNext}>
+            <button className='hover:text-red-600 transition-none' onClick={handleNext}>
               <MdOutlineArrowForward className='' />
             </button>
           </div>
         </div>
       </div>
 
-      <div className='flex flex-col lg:flex-row justify-between items-center mx-auto lg:my-[8rem] text-center lg:text-start'>
+      {/* <div className='flex flex-col lg:flex-row justify-between items-center mx-auto lg:my-[8rem] text-center lg:text-start'>
         <div className='lg:w-[50%] w-full lg:order-1'>
           <div className='lg:text-left'>
             <div className='mb-[0.5rem] font-medium'>OUR MISSION</div>
@@ -125,9 +125,9 @@ const ProjectsComponent = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className='flex flex-col lg:flex-row-reverse justify-between items-center mx-auto lg:my-10 text-center lg:text-start'>
+      {/* <div className='flex flex-col lg:flex-row-reverse justify-between items-center mx-auto lg:my-10 text-center lg:text-start'>
         <div className='lg:w-[50%] w-full lg:order-1'>
           <div className='lg:text-left lg:relative]'>
             <div className='mb-[0.5rem] font-medium'>OUR STORY</div>
@@ -158,7 +158,7 @@ const ProjectsComponent = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

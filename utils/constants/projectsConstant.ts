@@ -2,22 +2,22 @@ import { projectOne, projectTwo, projectThree } from '@/utils/constants/imagesCo
 
 export const projectsConstant = [
     {
-      title: 'General Construction',
-      heading: 'Building construction in Los Angeles, CA',
+      title: 'Qualified staff',
+      heading: 'Specialized Expertise for Diverse Needs',
       image: projectOne,
-      text: 'Lorem ipsum dolor sit amet consectetur senectus velit faucibus quisque at ut vitae platea justo nec mattis.',
+      text: 'For any use we have the appropriate specialists! We can do well-founded activities and use our short courses.',
     },
     {
-      title: 'Remodeling',
-      heading: 'Kitchen remodeling in Hollywood Hills, CA',
+      title: 'Experience',
+      heading: 'Continuous Expansion Through Expertise and Innovation',
       image: projectTwo,
-      text: 'Lorem ipsum dolor sit amet consectetur senectus velit faucibus quisque at ut vitae platea justo nec mattis.',
+      text: 'We develop and plan a continuous expansion through qualified and highly motivated employees with extensive know-how. The use of innovative technologies is our daily business.',
     },
     {
-        title: 'Project Planning',
-        heading: 'Interior remodeling in Malibu Beach, CA',
+        title: 'Tailored-made solutions',
+        heading: 'Tailored Solutions for Specific Client Needs',
         image: projectThree,
-        text: 'Lorem ipsum dolor sit amet consectetur senectus velit faucibus quisque at ut vitae platea justo nec mattis.',
+        text: 'We offer practical and tailor-made solutions from a single source and are happy to cater to the specific wishes of our clients. I.e. from finding the system, including a profitability study, to planning and execution.',
     },
   ];
   

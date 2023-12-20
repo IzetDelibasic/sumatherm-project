@@ -29,10 +29,10 @@ const HeroTwo = () => {
           </div>
         </div>
         <div className='flex flex-col text-center lg:text-start md:text-start lg:items-start md:items-start w-[90%] lg:mx-0 mx-auto lg:w-[50%] md:w-[60%] md:mx-0 relative top-[3.5rem] left[-0.2rem] lg:top-[8rem] md:top-[4rem] md:left-[4rem] lg:left-[8rem]'>
-          <div className='text-white mb-[0.5rem] font-medium text-[0.8rem] lg:text-[1rem] font-subtitle'>Your trusted technical partner</div>
-          <div className='text-white mb-[0.5rem] text-[2rem] lg:text-[84px] font-medium leading-tight font-title'>SOLUTIONS TO POWER YOUR BUSINESS</div>
+          <div className='text-white mb-[0.5rem] font-medium text-[1rem] lg:text-[1.2rem] font-subtitle'>Your trusted technical partner</div>
+          <div className='text-white mb-[0.5rem] text-[3.5rem] md:text-[4rem] lg:text-[84px] font-medium leading-tight font-title'>SOLUTIONS TO POWER YOUR BUSINESS</div>
 
-          <div className='text-white mb-[1.5rem] lg:w-[80%] text-[1rem] lg:text-[1.1rem] font-regular font-about'>
+          <div className='text-white mb-[1.5rem] lg:w-[80%] text-[1.1rem] lg:text-[1.2rem] font-regular font-about'>
             We develop and plan a continuous expansion through qualified and highly motivated employees with extensive know-how. The use of innovative technologies is our daily business.
           </div>
           <HeroActions />
