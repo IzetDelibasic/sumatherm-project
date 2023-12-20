@@ -18,7 +18,7 @@ const HeroTwo = () => {
 
   return (
     <div className='relative w-full lg:w-[80%]'>
-      <div className='h-[52rem] lg:h-[54rem] bg-cover bg-center' style={{ backgroundImage: `url(${heroImage})` }}>
+      <div className='h-[48rem] lg:h-[54rem] bg-cover bg-center' style={{ backgroundImage: `url(${heroImage})` }}>
         <div className='absolute inset-0 bg-black opacity-70'></div>
         <div className='absolute bottom-0 left-0'>
           <div className='relative lg:w-[13rem] lg:h-[13rem] w-[5rem] h-[5rem] grid grid-cols-2 grid-rows-2 gap-0'>
