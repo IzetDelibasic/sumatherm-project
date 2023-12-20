@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 // -Constants-
 import { projectsConstant } from '@/utils/constants/projectsConstant';
+import { aboutUsConstant } from '@/utils/constants/aboutConstant';
 import { projectPhotoOne, projectPhotoTwo } from '@/utils/constants/imagesConstants';
 // -Buttons-
 import ProjectButtons from '@/app/components/ProjectsAction/ProjectButtons';
@@ -48,7 +49,7 @@ const ProjectsComponent = () => {
           <div className='mb-[0.5rem] font-medium'>EXCLUSIVE BENEFITS</div>
           <div className='mb-[0.5rem] lg:text-[54px] text-[30px] font-medium'>You should choose us</div>
         </div>
-        <ProjectButtons />
+        <ArrowButton />
       </div>
       <div className='border-b-2 border-gray-200 pt-10 mx-auto'></div>
       <div className='flex flex-col lg:flex-row justify-between items-center mx-auto my-10 group text-center lg:text-start h-[40rem]'>
@@ -65,14 +66,14 @@ const ProjectsComponent = () => {
         <div className='flex flex-col lg:w-[40%] mt-6 lg:mt-0'>
           <div className='h-[60%]'>
             <div className='mb-2 font-medium text-[18px] break-words'>
-              <FaCircle className="text-red-600 inline-block mr-1 text-[7px]" />
+              <FaCircle className="text-red-600 font-subtitle inline-block mr-1 text-[7px]" />
               {currentProject.title}
             </div>
-            <div className='mb-2 text-[28px] lg:text-[38px] font-medium break-words lg:group-hover:text-red-600 lg:group-hover:transition-all lg:group-hover:duration-300 '>
+            <div className='mb-2 text-[28px] lg:text-[38px] font-medium font-title break-words lg:group-hover:text-red-600 lg:group-hover:transition-all lg:group-hover:duration-300 '>
               {currentProject.heading}
             </div>
           </div>
-          <div className='text-gray-500 font-medium'>{currentProject.text}</div>
+          <div className='text-gray-500 font-medium font-about'>{currentProject.text}</div>
           <div className='border-b-2 border-gray-300 my-5 lg:my-10'></div>
           <div className='flex justify-between text-[38px] lg:text-[32px]'>
             <button className='hover:text-red-600 transition-none' onClick={handlePrev}>
@@ -84,6 +85,15 @@ const ProjectsComponent = () => {
           </div>
         </div>
       </div>
+      <div className='grid grid-cols-3 lg:grid-cols-3 gap-0 lg:gap-10 mx-auto'>
+        {aboutUsConstant.map((service, index) => (
+          <div key={index} className='text-center'>
+            <div className='text-[4rem] lg:text-[8rem] font-medium font-title'>{service.number}</div>
+            <div className='text-[1.5rem] lg:text-[2rem] font-medium text-gray-500'>{service.text}</div>
+          </div>
+        ))}
+      </div>
+      <div className='border-b-2 border-gray-300 pt-[2.5rem] mx-auto'></div>
 
       {/* <div className='flex flex-col lg:flex-row justify-between items-center mx-auto lg:my-[8rem] text-center lg:text-start'>
         <div className='lg:w-[50%] w-full lg:order-1'>

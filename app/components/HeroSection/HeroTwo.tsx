@@ -18,7 +18,7 @@ const HeroTwo = () => {
 
   return (
     <div className='relative w-full lg:w-[80%]'>
-      <div className='h-[48rem] lg:h-[54rem] bg-cover bg-center' style={{ backgroundImage: `url(${heroImage})` }}>
+      <div className='h-[52rem] lg:h-[54rem] bg-cover bg-center' style={{ backgroundImage: `url(${heroImage})` }}>
         <div className='absolute inset-0 bg-black opacity-70'></div>
         <div className='absolute bottom-0 left-0'>
           <div className='relative lg:w-[13rem] lg:h-[13rem] w-[5rem] h-[5rem] grid grid-cols-2 grid-rows-2 gap-0'>
@@ -38,7 +38,7 @@ const HeroTwo = () => {
           <HeroActions />
         </div>
           <div className="flex justify-end" onClick={handleArrowClick}>
-            <div className="relative w-[6rem] h-[6rem] lg:w-[8.5rem] lg:h-[8.5rem] lg:mr-[10rem] lg:mt-[6rem] xl:mt-[8rem] md:mr-[10rem] md:mt-[20rem] mr-[3rem] mt-[12rem]">
+            <div className="relative w-[6rem] h-[6rem] lg:w-[8.5rem] lg:h-[8.5rem] lg:mr-[10rem] lg:mt-[6rem] xl:mt-[8rem] md:mr-[10rem] md:mt-[20rem] mr-[3rem] sm:mt-[12rem] mt-[5rem]">
               <div className="w-[6rem] h-[6rem] lg:w-[9rem] lg:h-[9rem] flex items-center justify-center overflow-hidden rounded-full border border-white group transition duration-200 hover:border-black hover:bg-white hover:border-0 hover:scale-[90%]">
                 <div className="absolute w-full h-full bg-white opacity-0 rounded-full transition duration-300"></div>
                 <GoArrowDown

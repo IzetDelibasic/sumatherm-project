@@ -13,7 +13,7 @@ const ArrowButton = () => {
     <Button 
       className='relative bg-yellow-500 text-white font-semibold lg:py-[1.5rem] py-[1rem] lg:px-[2.5rem] px-[4.5rem] md:px-[11rem] whitespace-nowrap rounded-[3rem] group overflow-hidden z-[1]'
       iconClassName='ml-[10px] group-hover:text-black'
-      title='Get a quote'
+      title='Apply to work'
       titleClassName="group-hover:text-black"
       Icon={MdOutlineArrowForward}
       href='/quote'

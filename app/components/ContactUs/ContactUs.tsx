@@ -11,7 +11,7 @@ const ContactUs = () => {
     data-aos-once="true" 
     data-aos-delay="200"
     className='lg:w-[80%] bg-hyellow-100 lg:h-[40rem] md:h-[55rem] h-[45rem] relative overflow-hidden'>
-      <div className='absolute bottom-0 xl:w-[40%] lg:w-[50%] w-[75%] sm:w-[40%] h-[40%] lg:h-[80%] md:w-[50%] md:h-[50%]' style={{ maxWidth: '100%' }}>
+      <div className='absolute bottom-0 xl:w-[40%] lg:w-[50%] w-[55%] sm:w-[40%] sm:h-[40%] h-[30%] lg:h-[80%] md:w-[50%] md:h-[50%]' style={{ maxWidth: '100%' }}>
         <Image src={workerImage} alt='Raid Truck' objectFit='cover' width={600} height={450} layout="responsive" />
       </div>
       <div className='absolute lg:w-[18rem] lg:h-[12rem] w-[9rem] h-[6rem] grid grid-cols-3 grid-rows-2 gap-0 left-0 top-0'>
