@@ -69,7 +69,7 @@ const ProjectsComponent = () => {
               <FaCircle className="text-red-600 font-subtitle inline-block mr-1 text-[7px]" />
               {currentProject.title}
             </div>
-            <div className='mb-2 text-[28px] lg:text-[38px] font-medium font-title break-words lg:group-hover:text-red-600 lg:group-hover:transition-all lg:group-hover:duration-300 '>
+            <div className='mb-2 text-[28px] lg:text-[48px] font-medium font-title break-words lg:group-hover:text-red-600 lg:group-hover:transition-all lg:group-hover:duration-300 '>
               {currentProject.heading}
             </div>
           </div>

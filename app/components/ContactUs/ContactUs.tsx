@@ -10,7 +10,7 @@ const ContactUs = () => {
     data-aos-duration="500" 
     data-aos-once="true" 
     data-aos-delay="200"
-    className='lg:w-[80%] bg-hyellow-100 lg:h-[40rem] md:h-[55rem] h-[45rem] relative overflow-hidden'>
+    className='lg:w-[80%] bg-blue-950 lg:h-[40rem] md:h-[55rem] h-[45rem] relative overflow-hidden'>
       <div className='absolute bottom-0 xl:w-[40%] lg:w-[50%] w-[55%] sm:w-[40%] sm:h-[40%] h-[30%] lg:h-[80%] md:w-[50%] md:h-[50%]' style={{ maxWidth: '100%' }}>
         <Image src={workerImage} alt='Raid Truck' objectFit='cover' width={600} height={450} layout="responsive" />
       </div>
@@ -31,9 +31,9 @@ const ContactUs = () => {
         <div className='bg-white'></div>
       </div>
       <div className='lg:flex flex-col lg:w-[40%] lg:absolute lg:top-[1rem] lg:right-[3rem] py-[5rem] mx-auto w-[90%] text-center lg:text-start'>
-        <div className='mb-[0.5rem] font-medium font-subtitle'>CONTACT US NOW</div>
-        <div className='mb-[0.5rem] text-[32px] lg:text-[54px] font-medium font-title'>Request a free consultation with us</div>
-        <div className='mb-[1.5rem] lg:text-[17px] font-medium lg:w-[95%] font-about'>Communication is very important! It is important to us that you are satisfied with our work. In return we offer you quality, reliability and a fair partnership. Feel free to contact us so that we can respond to your requests in the best possible way.</div>
+        <div className='mb-[0.5rem] font-medium font-subtitle text-white'>CONTACT US NOW</div>
+        <div className='mb-[0.5rem] text-[32px] lg:text-[54px] font-medium font-title text-white'>Request a free consultation with us</div>
+        <div className='mb-[1.5rem] lg:text-[17px] font-medium lg:w-[95%] font-about text-white'>Communication is very important! It is important to us that you are satisfied with our work. In return we offer you quality, reliability and a fair partnership. Feel free to contact us so that we can respond to your requests in the best possible way.</div>
         <form className='flex flex-col lg:w-[99%] w-full lg:flex-row lg:justify-between lg:items-end'>
           <div className='lg:relative lg:mb-2 mx-auto lg:mx-0 flex justify-center items-center'>
             <div className='relative'>
