@@ -11,7 +11,7 @@ const Button = dynamic(() => import("@/app/components/Button/Button"));
 const ArrowButton = () => {
   return (
     <Button 
-      className='mx-auto relative bg-yellow-500 text-white font-semibold lg:py-[1.5rem] py-[1rem] lg:px-[2.5rem] px-[4.5rem] md:px-[11rem] whitespace-nowrap rounded-[3rem] group overflow-hidden z-[1]'
+      className='mx-auto lg:mx-0 relative bg-red-600 text-white font-semibold lg:py-[1.5rem] py-[1rem] lg:px-[2.5rem] px-[4.5rem] md:px-[11rem] whitespace-nowrap rounded-[3rem] group overflow-hidden z-[1]'
       iconClassName='ml-[10px] group-hover:text-black'
       title='Apply to work'
       titleClassName="group-hover:text-black"

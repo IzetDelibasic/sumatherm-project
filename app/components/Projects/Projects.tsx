@@ -44,14 +44,14 @@ const ProjectsComponent = () => {
     data-aos-once="true" 
     data-aos-delay="200"
     className='lg:w-[60%] mx-auto my-[10rem] w-[90%]'>
-      <div className='lg:flex lg:items-end lg:justify-between top-[4rem] right-[6rem] text-center lg:text-start'>
+      <div className='lg:flex lg:items-center lg:justify-between top-[4rem] right-[6rem] text-center lg:text-start'>
         <div className='flex flex-col lg:w-[50%]'>
-          <div className='mb-[0.5rem] font-medium'>EXCLUSIVE BENEFITS</div>
-          <div className='mb-[0.5rem] lg:text-[54px] text-[30px] font-medium'>You should choose us</div>
+          <div className='mb-[0.5rem] font-medium font-subtitle'>EXCLUSIVE BENEFITS</div>
+          <div className='mb-[0.5rem] lg:text-[72px] text-[30px] font-medium font-title'>YOU SHOULD CHOOSE US</div>
         </div>
         <ArrowButton />
       </div>
-      <div className='border-b-2 border-gray-200 pt-10 mx-auto'></div>
+      <div className='border-b-2 border-gray-200 pt-5 mx-auto'></div>
       <div className='flex flex-col lg:flex-row justify-between items-center mx-auto my-10 group text-center lg:text-start h-[40rem]'>
         <div className='lg:w-[50%] overflow-hidden'>
           <Image

@@ -26,14 +26,14 @@ const Services = () => {
       </div>
       <div className="lg:w-[65%] relative lg:left-12 py-0 w-[88%]">
         <div className="mb-8 border-b-2 border-gray-300 py-[3rem] text-center lg:text-start">
-          <div className="text-black mb-[0.5rem] font-medium">
+          <div className="text-black mb-[0.5rem] font-medium font-subtitle">
             OUR SERVICES
           </div>
-          <div className="lg:flex lg:items-end lg:justify-between">
+          <div className="lg:flex lg:items-end lg:justify-between font-title">
             <div className="text-black mb-[0.5rem] lg:w-[45%] text-[32px] lg:text-[64px] font-medium leading-tight">
               A comprehensive set of services
             </div>
-            <div className="text-gray-500 mb-[1.5rem] lg:w-[40%] text-[15px] lg:text-[18px] font-medium">
+            <div className="text-gray-500 mb-[1.5rem] lg:w-[40%] text-[15px] lg:text-[18px] font-medium font-about">
               Lorem ipsum dolor sit amet consectetur senectus velit faucibus quisque at ut vitae platea justo nec mattis.
             </div>
           </div>
