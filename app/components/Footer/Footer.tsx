@@ -26,14 +26,14 @@ const Footer = () => {
               <Image src={headerLogo} alt="Logo - Construcfy X Webflow Template" width={200} height={100} />
             </span>
           </Link>
-          <div className='mb-[0.5rem] text-white lg:text-[14px] text-[14px] font-medium font-about'>
+          <div className='mb-[0.5rem] text-white lg:text-[15px] text-[15px] font-medium font-about'>
           All content on the official Sumatherm GmbH website is the property of the company, with the exception of the elements listed in the data protection regulations. 
           Any kind of copying or downloading of the content or parts thereof without the written consent of the owner is regarded as a criminal offense.
           </div>
         </div>
         <div className='flex flex-col my-[1rem] lg:my-0'>
           <div className='text-white lg:text-[18px] text-[17px] font-semibold lg:border-l-4 lg:border-red-600 px-[1rem] mb-[0.5rem] font-subtitle'>RESOURCES</div>
-          <div className='text-neutral-400 lg:text-[14px] text-[14px] font-lighter px-[1rem]'>
+          <div className='text-neutral-400 lg:text-[15px] text-[15px] font-lighter px-[1rem]'>
             {linksConstant.map((category, index) => (
               <div key={index}>
                 <ul>
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
         <div className='flex flex-col my-[1rem] lg:my-0'>
           <div className='text-white lg:text-[18px] text-[17px] font-semibold lg:border-l-4 lg:border-red-600 px-[1rem] mb-[0.5rem] font-subtitle'>OUR COMPANIES</div>
-          <div className='text-neutral-400 lg:text-[14px] text-[14px] font-lighter px-[1rem]'>
+          <div className='text-neutral-400 lg:text-[15px] text-[15px] font-lighter px-[1rem]'>
             {othersConstant.map((category, index) => (
               <div key={index}>
                 <ul>
@@ -69,15 +69,15 @@ const Footer = () => {
         </div>
         <div className='flex flex-col my-[1rem] lg:my-0'>
           <div className='text-white lg:text-[18px] text-[17px] font-semibold lg:border-l-4 lg:border-red-600 px-[1rem] mb-[0.5rem] font-subtitle'>OTHERS</div>
-          <div className='text-white lg:text-[14px] text-[14px] font-lighter px-[1rem] font-about'>SUMATHERM GmbH</div>
-          <div className='text-white lg:text-[14px] text-[14px] font-lighter px-[1rem] font-about'>Gewerbepark Lindach B 11</div>
-          <div className='text-white lg:text-[14px] text-[14px] font-lighter px-[1rem] font-about'>84489 Burghausen</div>
-          <div className='text-white lg:text-[14px] text-[14px] font-lighter px-[1rem] font-about'>Telefon: +49 (0) 8677/ 908 94-0</div>
+          <div className='text-white lg:text-[15px] text-[15px] font-lighter px-[1rem] font-about'>SUMATHERM GmbH</div>
+          <div className='text-white lg:text-[15px] text-[15px] font-lighter px-[1rem] font-about'>Gewerbepark Lindach B 11</div>
+          <div className='text-white lg:text-[15px] text-[15px] font-lighter px-[1rem] font-about'>84489 Burghausen</div>
+          <div className='text-white lg:text-[15px] text-[15px] font-lighter px-[1rem] font-about'>Telefon: +49 (0) 8677/ 908 94-0</div>
           <div className='flex py-[1rem] lg:ml-[1rem] mx-auto lg:mx-0'>
             <FaFacebook className='text-white h-[2rem] w-[2rem] mr-[0.5rem]' />
             <FaTwitterSquare className='text-white h-[2rem] w-[2rem] mr-[0.5rem]' />
             <FaInstagramSquare className='text-white h-[2rem] w-[2rem] mr-[0.5rem]' />
-            <FaTwitterSquare className='text-white h-[2rem] w-[2rem] mr-[0.5rem]' />
+            <FaYoutubeSquare className='text-white h-[2rem] w-[2rem] mr-[0.5rem]' />
           </div>
         </div>
 

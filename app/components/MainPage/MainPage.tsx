@@ -23,16 +23,13 @@ const MainPage = () => {
           <HeroTwo />
         </div>
       </div>
-      {/* <div className='flex lg:justify-end'>
-        <Sponsors />
-      </div> */}
       <div className='relative'>
         <Services />
         <AboutUs />
         <ContactUs />
         <Projects />
         <Testimonials />
-        <Articles />
+        {/* <Articles /> */}
         <Footer />
       </div>
     </React.Fragment>

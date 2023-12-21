@@ -76,10 +76,10 @@ const ProjectsComponent = () => {
           <div className='text-gray-500 font-medium font-about'>{currentProject.text}</div>
           <div className='border-b-2 border-gray-300 my-5 lg:my-10'></div>
           <div className='flex justify-between text-[38px] lg:text-[32px]'>
-            <button className='hover:text-red-600 transition-none' onClick={handlePrev}>
+            <button className='hover:text-red-600 transition-none' onClick={handlePrev} title='Previous'>
               <MdOutlineArrowBack className='' />
             </button>
-            <button className='hover:text-red-600 transition-none' onClick={handleNext}>
+            <button className='hover:text-red-600 transition-none' onClick={handleNext} title='Next'>
               <MdOutlineArrowForward className='' />
             </button>
           </div>
