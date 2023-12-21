@@ -34,7 +34,8 @@ const Services = () => {
               A comprehensive set of services
             </div>
             <div className="text-gray-500 mb-[1.5rem] lg:w-[40%] text-[15px] lg:text-[18px] font-medium font-about">
-              Lorem ipsum dolor sit amet consectetur senectus velit faucibus quisque at ut vitae platea justo nec mattis.
+            Welcome to our Services Section! Our commitment to providing high-quality services is at the core of what we do. 
+            In this section, we aim to introduce you to our wide array of services tailored to meet your needs.
             </div>
           </div>
         </div>
@@ -70,7 +71,7 @@ const Services = () => {
             </a>
           ))}
         </div>
-        <ServicesButtons />
+        {/* <ServicesButtons /> */}
       </div>
     </div>
   );

@@ -25,10 +25,10 @@ const MainPage = () => {
       </div>
       <div className='relative'>
         <Services />
+        <Testimonials />
         <AboutUs />
         <ContactUs />
         <Projects />
-        <Testimonials />
         {/* <Articles /> */}
         <Footer />
       </div>

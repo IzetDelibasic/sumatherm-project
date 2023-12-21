@@ -23,7 +23,7 @@ const HeroButtons = () => {
       <Button
         className="relative bg-red-600 text-black border-[1px] border-black font-medium lg:py-[1.6rem] py-[1rem] lg:px-[2rem] px-[5rem] md:px-[1rem] rounded-[3rem] group overflow-hidden z-[1] md:ml-[20px] hover:border-opacity-0 hover:border-transparent"
         iconClassName=""
-        title="Apply for a job"
+        title="Apply to work"
         titleClassName="group-hover:text-white font-subtitle"
         href="contacts"
       >
