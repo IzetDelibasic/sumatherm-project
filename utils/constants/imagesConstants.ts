@@ -48,6 +48,6 @@ export const testimonialsTwo = "/images/testimonials2.webp"
 
 export const testimonialsThree = "/images/testimonials3.webp"
 
-export const articlesImage = "/images/articlesImage.webp"
+export const certificateImage = "/images/certificateImage.webp"
 
 export const toolWorkerImage = "/images/toolWorkerImage.webp"

@@ -29,7 +29,7 @@ const MainPage = () => {
         <AboutUs />
         <ContactUs />
         <Projects />
-        {/* <Articles /> */}
+        <Articles />
         <Footer />
       </div>
     </React.Fragment>
