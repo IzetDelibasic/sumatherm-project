@@ -5,7 +5,7 @@ export const headerLinks = [
       items: [
         {
           name: 'HOME',
-          href: '/',
+          href: '#homeSection',
         },
       ],
     },
@@ -15,7 +15,7 @@ export const headerLinks = [
       items: [
         {
           name: 'ABOUT US',
-          href: '/about',
+          href: '#aboutSection',
         },
       ],
     },
@@ -25,7 +25,7 @@ export const headerLinks = [
       items: [
         {
           name: 'COMPANIES',
-          href: '/companies',
+          href: '#companiesSection',
         },
       ],
     },
@@ -35,7 +35,7 @@ export const headerLinks = [
       items: [
         {
           name: 'CERTIFICATE',
-          href: '/certificate',
+          href: '#certificateSection',
         },
       ],
     },
@@ -45,7 +45,7 @@ export const headerLinks = [
         items: [
           {
             name: 'CAREER',
-            href: '/career',
+            href: '#careerSection',
           },
         ],
       },
@@ -55,7 +55,7 @@ export const headerLinks = [
       items: [
         {
           name: 'CONTACT',
-          href: '/contact',
+          href: '#contactSection',
         },
       ],
     },

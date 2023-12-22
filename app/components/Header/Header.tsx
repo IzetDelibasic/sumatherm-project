@@ -39,7 +39,7 @@ const Header = () => {
             </React.Fragment>
           ))}
         </div>
-        <Link href="/" passHref className="ml-8 lg:ml-0 z-[60]">
+        <Link href="#homeSection" passHref className="ml-8 lg:ml-0 z-[60]">
           <span className="">
             <Image
               src={headerLogo}

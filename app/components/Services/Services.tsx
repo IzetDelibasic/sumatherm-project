@@ -11,7 +11,7 @@ import Image from "next/image";
 
 const Services = () => {
   return (
-    <div className="bg-hgray-50 relative flex flex-col justify-center items-center py-[8rem] lg:py-[12rem]">
+    <div className="bg-hgray-50 relative flex flex-col justify-center items-center py-[8rem] lg:py-[12rem]" id='companiesSection'>
       <div className="absolute lg:w-[13rem] lg:h-[13rem] w-[5rem] h-[5rem] top-0 right-0 grid grid-cols-2 grid-rows-2 gap-0">
         <div className="bg-white"></div>
         <div className="bg-white"></div>
