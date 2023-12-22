@@ -41,11 +41,11 @@ export const headerLinks = [
     },
     // CAREER
     {
-        title: 'CAREER',
+        title: 'PROJECTS',
         items: [
           {
-            name: 'CAREER',
-            href: '#careerSection',
+            name: 'PROJECTS',
+            href: '#projectsSection',
           },
         ],
       },
