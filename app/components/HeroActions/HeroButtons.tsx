@@ -10,7 +10,6 @@ import { MdOutlineArrowForward } from "react-icons/md";
 const Button = dynamic(() => import("@/app/components/Button"));
 
 const HeroButtons = () => {
-
   return (
     <div className="flex flex-col items-center justify-center md:flex-row md:justify-start md:w-[30rem] lg:w-[40rem] w-[90%] mx-auto md:mx-0">
       <Link href="#contactSection">
