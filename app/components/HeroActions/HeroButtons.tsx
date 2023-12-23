@@ -13,7 +13,7 @@ const HeroButtons = () => {
     <div className="flex flex-col items-center justify-center md:flex-row md:justify-start md:w-[30rem] lg:w-[40rem] w-[90%] mx-auto md:mx-0">
       <Link href="#contactSection">
         <Button
-          className="relative bg-red-600 text-white font-medium lg:py-[1.6rem] py-[1rem] lg:px-[2.5rem] px-[4rem] md:px-[1rem] mr-0 mb-[20px] md:mb-0  rounded-[3rem] group overflow-hidden z-[1]"
+          className="relative bg-blue-950 hover:bg-white text-white font-medium lg:py-[1.6rem] py-[1rem] lg:px-[2.5rem] px-[4rem] md:px-[1rem] mr-0 mb-[20px] md:mb-0  rounded-[3rem] group overflow-hidden z-[1]"
           iconClassName="ml-[10px] group-hover:text-black"
           title="Request a quote"
           titleClassName="group-hover:text-black font-subtitle"

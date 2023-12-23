@@ -63,7 +63,7 @@ const Header = () => {
               {linkGroup.items.map((linkItem, i) => (
                 <Link key={i} href={linkItem.href}>
                   <p
-                    className={`text-gray-800 text-sm font-medium hover:text-red-600 transition duration-300 ease-in-out cursor-pointer block pt-2 pl-4`}
+                    className={`text-gray-800 text-medium font-subtitle font-medium hover:text-red-600 transition duration-300 ease-in-out cursor-pointer block pt-2 pl-4 text-center`}
                   >
                     {linkItem.name}
                   </p>
