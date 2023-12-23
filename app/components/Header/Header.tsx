@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <div
-      className={`lg:py-8 min-h-[6rem] lg:w-[80%] w-full lg:pr-20 relative ${
+      className={`lg:py-8 px-2 md:px-0 min-h-[6rem] md:max-w-[96%] xl:w-[80%] mx-auto w-full relative ${
         menuOpen ? "bg-white border-b-2 pb-[1rem]" : ""
       }`}
     >
