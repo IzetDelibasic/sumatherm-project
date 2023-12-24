@@ -21,11 +21,11 @@ const Header = () => {
 
   return (
     <div
-      className={`lg:py-8 px-2 md:px-0 min-h-[6rem] md:max-w-[96%] xl:w-[80%] mx-auto w-full relative ${
+      className={`lg:py-8 md:px-0 min-h-[6rem] mx-auto w-full lg:sticky top-0 bg-blue-950 z-[2] overflow-hidden ${
         menuOpen ? "bg-white border-b-2 pb-[1rem]" : ""
       }`}
     >
-      <div className="lg:flex lg:items-center lg:justify-between flex justify-between mt-[1.5rem] lg:mt-0 lg:w-full md:w-[80%] md:mx-auto">
+      <div className="lg:flex lg:items-center lg:justify-between flex justify-between pt-[2rem] lg:pt-0 lg:mt-0 lg:w-full md:w-[80%] md:ml-[5rem]">
         <div className="hidden lg:flex lg:space-x-8">
           {leftLinks.map((linkGroup, index) => (
             <React.Fragment key={index}>
@@ -52,7 +52,7 @@ const Header = () => {
         <NavBurger isOpen={menuOpen} toggleMenu={toggleMenu} />
 
         <div
-          className={`lg:hidden absolute block top-[6rem] py-3 pb-4 rounded-b-3xl transition-all duration-400 ease-in-out   left-0 w-full bg-white ${
+          className={`lg:hidden absolute block top-[6rem] py-3 pb-4 rounded-b-3xl transition-all duration-400 ease-in-out left-0 w-full bg-white ${
             menuOpen
               ? "z-50 translate-y-0 opacity-100"
               : "z-[-10] translate-y-[-150%] opacity-0 "
@@ -74,7 +74,7 @@ const Header = () => {
         </div>
 
         <div
-          className={`hidden lg:flex lg:items-center lg:space-x-8 ${
+          className={`hidden lg:flex lg:items-center lg:space-x-8 mr-[15rem] ${
             menuOpen ? "opacity-0" : "opacity-100"
           }`}
           style={{ transition: "opacity 0.3s ease-in-out" }}
