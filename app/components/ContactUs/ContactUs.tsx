@@ -31,7 +31,12 @@ const ContactUs = () => {
         <div></div>
         <div className='bg-white'></div>
       </div>
-      <div className='lg:flex flex-col lg:w-[40%] lg:absolute lg:top-[1rem] lg:right-[3rem] py-[5rem] mx-auto w-[90%] text-center lg:text-start'>
+      <div 
+      data-aos="fade-left"
+      data-aos-duration="700" 
+      data-aos-once="true" 
+      data-aos-delay="400"
+      className='lg:flex flex-col lg:w-[40%] lg:absolute lg:top-[1rem] lg:right-[3rem] py-[5rem] mx-auto w-[90%] text-center lg:text-start'>
         <div className='mb-[0.5rem] font-medium font-subtitle text-white'>CONTACT US NOW</div>
         <div className='mb-[0.5rem] text-[32px] lg:text-[54px] font-medium font-title text-white'>Request a free consultation with us</div>
         <div className='mb-[1.5rem] lg:text-[17px] font-medium lg:w-[95%] font-about text-white'>Communication is very important! It is important to us that you are satisfied with our work. In return we offer you quality, reliability and a fair partnership. Feel free to contact us so that we can respond to your requests in the best possible way.</div>

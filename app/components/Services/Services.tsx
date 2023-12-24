@@ -4,14 +4,17 @@ import React from "react";
 import { servicesLinks } from "@/utils/constants/servicesLinks";
 // -Icons-
 import { MdArrowOutward } from "react-icons/md";
-// -Components-
-import ServicesButtons from "@/app/components/ServicesAction/ServicesButtons";
 // -Next-
 import Image from "next/image";
 
 const Services = () => {
   return (
-    <div className="bg-hgray-50 relative flex flex-col justify-center items-center py-[8rem] lg:py-[12rem]" id='companiesSection'>
+    <div 
+    data-aos="fade-up"
+    data-aos-duration="500" 
+    data-aos-once="true" 
+    data-aos-delay="200"
+    className="bg-hgray-50 relative flex flex-col justify-center items-center py-[8rem] lg:py-[12rem]" id='companiesSection'>
       <div className="absolute lg:w-[13rem] lg:h-[13rem] w-[5rem] h-[5rem] top-0 right-0 grid grid-cols-2 grid-rows-2 gap-0">
         <div className="bg-white"></div>
         <div className="bg-white"></div>
@@ -24,7 +27,12 @@ const Services = () => {
         <div className="bg-white"></div>
         <div></div>
       </div>
-      <div className="lg:w-[65%] relative lg:left-12 py-0 w-[88%]">
+      <div 
+      data-aos="fade-down"
+      data-aos-duration="700" 
+      data-aos-once="true" 
+      data-aos-delay="400"
+      className="lg:w-[65%] relative lg:left-12 py-0 w-[88%]">
         <div className="mb-8 border-b-2 border-gray-300 py-[3rem] text-center lg:text-start">
           <div className="text-black mb-[0.5rem] font-medium font-subtitle">
             OUR SERVICES

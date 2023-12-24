@@ -29,7 +29,12 @@ const Articles = () => {
             </Button> */}
         </div>
 
-        <div className='lg:flex lg:justify-between'>
+        <div 
+        data-aos="fade-right"
+        data-aos-duration="700" 
+        data-aos-once="true" 
+        data-aos-delay="400"
+        className='lg:flex lg:justify-between'>
             <div className='flex-col lg:w-[60%] mt-[3rem] lg:pr-10 lg:border-r-2 group'>
                 <div className='lg:w-full overflow-hidden'>
                     <Image
@@ -55,7 +60,12 @@ const Articles = () => {
                     <div className='border-b-2 border-gray-300 my-5 lg:my-10'></div>
                 </div>
             </div>
-            <div className='flex-col lg:w-[50%] lg:pl-[2rem] lg:my-auto'>
+            <div 
+            data-aos="fade-left"
+            data-aos-duration="700" 
+            data-aos-once="true" 
+            data-aos-delay="400"
+            className='flex-col lg:w-[50%] lg:pl-[2rem] lg:my-auto'>
                 <div className='flex flex-col mt-[1rem] group'>
                     <div className='font-medium text-[18px] break-words mb-[1rem] font-subtitle'>
                         OUR CERTIFICATES

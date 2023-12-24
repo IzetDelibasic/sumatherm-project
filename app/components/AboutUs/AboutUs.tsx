@@ -11,13 +11,23 @@ const AboutUs = () => {
       data-aos-once="true" 
       data-aos-delay="200"
       className='py-[4rem] lg:py-[12rem]' id='aboutSection'>
-      <div className='flex flex-col lg:w-[40%] w-[90%] lg:mx-auto lg:items-center mx-auto'>
+      <div 
+      data-aos="fade-down"
+      data-aos-duration="700" 
+      data-aos-once="true" 
+      data-aos-delay="400"
+      className='flex flex-col lg:w-[40%] w-[90%] lg:mx-auto lg:items-center mx-auto'>
         <div className='text-center'>
           <div className='mb-[0.5rem] lg:mb-[1rem] font-medium'>ABOUT US</div>
           <div className='mb-[1rem] lg:mb-[2rem] text-[2rem] lg:text-[4.5rem] lg:leading-none leading-tight font-medium font-title'>Our employees are our potential!</div>
         </div>
       </div>
-      <div className='w-[90%] lg:w-[60%] h-[10rem] lg:h-[24rem] bg-cover bg-center mx-auto relative' style={{ backgroundImage: `url(${aboutUsImage})` }}>
+      <div 
+      data-aos="fade-down"
+      data-aos-duration="700" 
+      data-aos-once="true" 
+      data-aos-delay="400"
+      className='w-[90%] lg:w-[60%] h-[10rem] lg:h-[24rem] bg-cover bg-center mx-auto relative' style={{ backgroundImage: `url(${aboutUsImage})` }}>
         <div className='relative w-[5rem] h-[5rem] lg:w-[15rem] lg:h-[15rem] grid grid-cols-2 grid-rows-2 gap-0'>
           <div className='bg-white'></div>
           <div></div>
@@ -31,7 +41,12 @@ const AboutUs = () => {
           <div className='bg-white'></div>
         </div>
       </div>
-      <div className='flex lg:flex-row flex-col w-[90%] lg:w-[90%] items-center justify-center mx-auto lg:mx-0'>
+      <div 
+      data-aos="fade-down"
+      data-aos-duration="700" 
+      data-aos-once="true" 
+      data-aos-delay="400"
+      className='flex lg:flex-row flex-col w-[90%] lg:w-[90%] items-center justify-center mx-auto lg:mx-0'>
         <div className='w-[90%] lg:w-[60%] flex flex-col justify-center items-center my-8 lg:my-16 text-center lg:text-start'>
           <div className='w-full lg:w-[50%] lg:mb-0 text-black font-medium font-about mb-[1.5rem]'>The name Sumatherm GmbH stands for a family-run company with an extensive customer-oriented range of services based on partnership.
           It is important to us that you are satisfied with our work. For this we offer you quality, reliability and a fair partnership.</div>

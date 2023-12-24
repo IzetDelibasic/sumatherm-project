@@ -45,7 +45,12 @@ const ProjectsComponent = () => {
     data-aos-delay="200"
     className='lg:w-[60%] mx-auto my-[10rem] w-[90%]'
     id='projectsSection'>
-      <div className='lg:flex lg:items-center lg:justify-between top-[4rem] right-[6rem] text-center lg:text-start'>
+      <div 
+      data-aos="fade-right"
+      data-aos-duration="700" 
+      data-aos-once="true" 
+      data-aos-delay="400"
+      className='lg:flex lg:items-center lg:justify-between top-[4rem] right-[6rem] text-center lg:text-start'>
         <div className='flex flex-col lg:w-[50%]'>
           <div className='mb-[0.5rem] font-medium font-subtitle'>EXCLUSIVE BENEFITS</div>
           <div className='mb-[0.5rem] lg:text-[72px] text-[30px] font-medium font-title'>YOU SHOULD CHOOSE US</div>
@@ -53,7 +58,11 @@ const ProjectsComponent = () => {
         <ArrowButton />
       </div>
       <div className='border-b-2 border-gray-200 pt-5 mx-auto'></div>
-      <div className='flex flex-col lg:flex-row justify-between items-center mx-auto my-10 group text-center lg:text-start h-[40rem]'>
+      <div 
+      data-aos="fade-left"
+      data-aos-duration="700" 
+      data-aos-once="true" 
+      data-aos-delay="400"className='flex flex-col lg:flex-row justify-between items-center mx-auto my-10 group text-center lg:text-start h-[40rem]'>
         <div className='lg:w-[50%] overflow-hidden'>
           <Image
             src={currentProject.image}
@@ -86,7 +95,12 @@ const ProjectsComponent = () => {
           </div>
         </div>
       </div>
-      <div className='grid grid-cols-3 lg:grid-cols-3 gap-0 lg:gap-10 mx-auto'>
+      <div 
+      data-aos="fade-up"
+      data-aos-duration="700" 
+      data-aos-once="true" 
+      data-aos-delay="400"
+      className='grid grid-cols-3 lg:grid-cols-3 gap-0 lg:gap-10 mx-auto'>
         {aboutUsConstant.map((service, index) => (
           <div key={index} className='text-center'>
             <div className='text-[4rem] lg:text-[8rem] font-medium font-title'>{service.number}</div>
