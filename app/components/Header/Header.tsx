@@ -21,7 +21,11 @@ const Header = () => {
 
   return (
     <div
-      className={`lg:py-8 md:px-0 min-h-[6rem] mx-auto w-full lg:sticky top-0 bg-blue-950 z-[2] overflow-hidden ${
+    data-aos="fade-in"
+    data-aos-duration="200" 
+    data-aos-once="true" 
+    data-aos-delay="100"
+    className={`lg:py-8 md:px-0 min-h-[6rem] mx-auto w-full lg:sticky top-0 bg-blue-950 z-[2] overflow-hidden ${
         menuOpen ? "bg-white border-b-2 pb-[1rem]" : ""
       }`}
     >

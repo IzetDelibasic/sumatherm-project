@@ -16,7 +16,7 @@
     return (
       <React.Fragment>
         <Header />
-        <div className="relative lg:min-h-screen">
+        <div className="relative lg:min-h-screen z-[10]">
           <div className="bg-[#172554] h-[35rem] absolute top-0 left-0 w-full md:h-[25rem] lg:h-[44.8rem]"></div>
           <div className="bg-white h-[15rem] absolute bottom-0 left-0 w-full md:h-[10rem] lg:h-[30.2rem]"></div>
           <div className="flex flex-col items-end relative">

@@ -19,7 +19,7 @@ const HeroTwo = () => {
   return (
     <div className="relative w-full lg:w-[80%]" id="homeSection">
       <div
-        className="h-[48rem] lg:h-[54rem] bg-cover bg-center"
+        className="bg-cover bg-center h-[45rem] lg:h-[50rem]"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="absolute inset-0 bg-black opacity-70"></div>
