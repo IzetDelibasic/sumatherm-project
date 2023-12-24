@@ -40,9 +40,8 @@ const ProjectsComponent = () => {
   return (
     <div 
     data-aos="fade-up"
-    data-aos-duration="500" 
+    data-aos-duration="400" 
     data-aos-once="true" 
-    data-aos-delay="200"
     className='lg:w-[60%] mx-auto my-[10rem] w-[90%]'
     id='projectsSection'>
       <div 
@@ -60,9 +59,10 @@ const ProjectsComponent = () => {
       <div className='border-b-2 border-gray-200 pt-5 mx-auto'></div>
       <div 
       data-aos="fade-right"
-      data-aos-duration="700" 
+      data-aos-duration="400" 
       data-aos-once="true" 
-      data-aos-delay="400"className='flex flex-col lg:flex-row justify-between items-center mx-auto my-10 group text-center lg:text-start h-[40rem]'>
+      data-aos-delay="150"
+      className='flex flex-col lg:flex-row justify-between items-center mx-auto my-10 group text-center lg:text-start h-[40rem]'>
         <div className='lg:w-[50%] overflow-hidden'>
           <Image
             src={currentProject.image}
@@ -97,9 +97,9 @@ const ProjectsComponent = () => {
       </div>
       <div 
       data-aos="fade-up"
-      data-aos-duration="700" 
+      data-aos-duration="400" 
       data-aos-once="true" 
-      data-aos-delay="400"
+      data-aos-delay="100"
       className='grid grid-cols-3 lg:grid-cols-3 gap-0 lg:gap-10 mx-auto'>
         {aboutUsConstant.map((service, index) => (
           <div key={index} className='text-center'>

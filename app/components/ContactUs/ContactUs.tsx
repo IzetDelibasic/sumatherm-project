@@ -7,9 +7,8 @@ const ContactUs = () => {
   return (
     <div 
     data-aos="fade-down"
-    data-aos-duration="500" 
+    data-aos-duration="400" 
     data-aos-once="true" 
-    data-aos-delay="200"
     className='lg:w-[80%] bg-blue-950 lg:h-[40rem] md:h-[55rem] h-[45rem] relative overflow-hidden'
     id='contactSection'>
       <div className='absolute bottom-0 xl:w-[40%] lg:w-[50%] w-[55%] sm:w-[40%] sm:h-[40%] h-[30%] lg:h-[80%] md:w-[50%] md:h-[50%]' style={{ maxWidth: '100%' }}>
@@ -33,9 +32,8 @@ const ContactUs = () => {
       </div>
       <div 
       data-aos="fade-up"
-      data-aos-duration="700" 
+      data-aos-duration="400" 
       data-aos-once="true" 
-      data-aos-delay="400"
       className='lg:flex flex-col lg:w-[40%] lg:absolute lg:top-[1rem] lg:right-[3rem] py-[5rem] mx-auto w-[90%] text-center lg:text-start'>
         <div className='mb-[0.5rem] font-medium font-subtitle text-white'>CONTACT US NOW</div>
         <div className='mb-[0.5rem] text-[32px] lg:text-[54px] font-medium font-title text-white'>Request a free consultation with us</div>

@@ -7,9 +7,8 @@ const Articles = () => {
   return (
     <div 
     data-aos="fade-down"
-    data-aos-duration="500" 
+    data-aos-duration="400" 
     data-aos-once="true" 
-    data-aos-delay="200"
     className='lg:w-[65%] mx-auto my-[10rem] w-[90%] text-center lg:text-start'
     id='certificateSection'>
         <div className='lg:flex lg:items-center lg:justify-between lg:flex-row flex flex-col items-center'>
@@ -31,9 +30,9 @@ const Articles = () => {
 
         <div 
         data-aos="fade-up"
-        data-aos-duration="700" 
+        data-aos-duration="400" 
         data-aos-once="true" 
-        data-aos-delay="400"
+        data-aos-delay="150"
         className='lg:flex lg:justify-between'>
             <div className='flex-col lg:w-[60%] mt-[3rem] lg:pr-10 lg:border-r-2 group'>
                 <div className='lg:w-full overflow-hidden'>
@@ -62,9 +61,9 @@ const Articles = () => {
             </div>
             <div 
             data-aos="fade-down"
-            data-aos-duration="700" 
+            data-aos-duration="400" 
             data-aos-once="true" 
-            data-aos-delay="400"
+            data-aos-delay="100"
             className='flex-col lg:w-[50%] lg:pl-[2rem] lg:my-auto'>
                 <div className='flex flex-col mt-[1rem] group'>
                     <div className='font-medium text-[18px] break-words mb-[1rem] font-subtitle'>

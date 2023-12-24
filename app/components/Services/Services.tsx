@@ -11,9 +11,8 @@ const Services = () => {
   return (
     <div 
     data-aos="fade-up"
-    data-aos-duration="500" 
+    data-aos-duration="400" 
     data-aos-once="true" 
-    data-aos-delay="200"
     className="bg-hgray-50 relative flex flex-col justify-center items-center py-[8rem] lg:py-[12rem]" id='companiesSection'>
       <div className="absolute lg:w-[13rem] lg:h-[13rem] w-[5rem] h-[5rem] top-0 right-0 grid grid-cols-2 grid-rows-2 gap-0">
         <div className="bg-white"></div>
@@ -29,9 +28,8 @@ const Services = () => {
       </div>
       <div 
       data-aos="fade-down"
-      data-aos-duration="700" 
+      data-aos-duration="400" 
       data-aos-once="true" 
-      data-aos-delay="400"
       className="lg:w-[65%] relative lg:left-12 py-0 w-[88%]">
         <div className="mb-8 border-b-2 border-gray-300 py-[3rem] text-center lg:text-start">
           <div className="text-black mb-[0.5rem] font-medium font-subtitle">
@@ -50,9 +48,9 @@ const Services = () => {
 
         <div 
         data-aos="fade-down"
-        data-aos-duration="700" 
+        data-aos-duration="400" 
         data-aos-once="true" 
-        data-aos-delay="400"
+        data-aos-delay="150"
         className="grid gap-8 lg:grid-cols-2">
           {servicesLinks.map((service, index) => (
             <a

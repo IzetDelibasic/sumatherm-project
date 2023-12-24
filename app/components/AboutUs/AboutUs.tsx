@@ -7,9 +7,8 @@ const AboutUs = () => {
   return (
     <div 
       data-aos="fade-up"
-      data-aos-duration="500" 
+      data-aos-duration="400" 
       data-aos-once="true" 
-      data-aos-delay="200"
       className='py-[4rem] lg:py-[12rem]' id='aboutSection'>
       <div 
       data-aos="fade-down"
@@ -24,9 +23,9 @@ const AboutUs = () => {
       </div>
       <div 
       data-aos="fade-down"
-      data-aos-duration="700" 
+      data-aos-duration="400" 
       data-aos-once="true" 
-      data-aos-delay="400"
+      data-aos-delay="150"
       className='w-[90%] lg:w-[60%] h-[10rem] lg:h-[24rem] bg-cover bg-center mx-auto relative' style={{ backgroundImage: `url(${aboutUsImage})` }}>
         <div className='relative w-[5rem] h-[5rem] lg:w-[15rem] lg:h-[15rem] grid grid-cols-2 grid-rows-2 gap-0'>
           <div className='bg-white'></div>
@@ -43,9 +42,9 @@ const AboutUs = () => {
       </div>
       <div 
       data-aos="fade-down"
-      data-aos-duration="700" 
+      data-aos-duration="400" 
       data-aos-once="true" 
-      data-aos-delay="400"
+      data-aos-delay="100"
       className='flex lg:flex-row flex-col w-[90%] lg:w-[90%] items-center justify-center mx-auto lg:mx-0'>
         <div className='w-[90%] lg:w-[60%] flex flex-col justify-center items-center my-8 lg:my-16 text-center lg:text-start'>
           <div className='w-full lg:w-[50%] lg:mb-0 text-black font-medium font-about mb-[1.5rem]'>The name Sumatherm GmbH stands for a family-run company with an extensive customer-oriented range of services based on partnership.

@@ -52,7 +52,7 @@ const Button = ({
             )}
             {Icon && title && !onlyIcon && (
                 <>
-                    <span className={`${titleClassName} text-[17px] font-medium`}>
+                    <span className={`${titleClassName} text-[17px]`}>
                         {title}
                     </span>
                     <IconComponent className={`${iconClassName} text-[20px]`} />

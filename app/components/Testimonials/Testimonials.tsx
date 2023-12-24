@@ -7,9 +7,9 @@ const Testimonials = () => {
   return (
     <div 
       data-aos="fade-up"
-      data-aos-duration="500" 
+      data-aos-duration="400" 
       data-aos-once="true" 
-      data-aos-delay="200"
+      data-aos-delay="100"
       className="lg:h-[40rem] h-[30rem] flex flex-col relative text-center lg:text-start bg-cover" style={{ backgroundImage: `url(${toolWorkerImage})` }}
     >
       <div className=" my-auto">
