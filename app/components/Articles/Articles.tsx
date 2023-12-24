@@ -30,7 +30,7 @@ const Articles = () => {
         </div>
 
         <div 
-        data-aos="fade-right"
+        data-aos="fade-up"
         data-aos-duration="700" 
         data-aos-once="true" 
         data-aos-delay="400"
@@ -61,7 +61,7 @@ const Articles = () => {
                 </div>
             </div>
             <div 
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-duration="700" 
             data-aos-once="true" 
             data-aos-delay="400"

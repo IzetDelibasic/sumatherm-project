@@ -6,7 +6,7 @@ import SubscribeButton from "@/app/components/SubscribeButton/SubscribeButton";
 const ContactUs = () => {
   return (
     <div 
-    data-aos="fade-right"
+    data-aos="fade-down"
     data-aos-duration="500" 
     data-aos-once="true" 
     data-aos-delay="200"
@@ -32,7 +32,7 @@ const ContactUs = () => {
         <div className='bg-white'></div>
       </div>
       <div 
-      data-aos="fade-left"
+      data-aos="fade-up"
       data-aos-duration="700" 
       data-aos-once="true" 
       data-aos-delay="400"

@@ -48,7 +48,12 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-2">
+        <div 
+        data-aos="fade-down"
+        data-aos-duration="700" 
+        data-aos-once="true" 
+        data-aos-delay="400"
+        className="grid gap-8 lg:grid-cols-2">
           {servicesLinks.map((service, index) => (
             <a
               key={index}

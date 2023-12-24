@@ -59,7 +59,7 @@ const ProjectsComponent = () => {
       </div>
       <div className='border-b-2 border-gray-200 pt-5 mx-auto'></div>
       <div 
-      data-aos="fade-left"
+      data-aos="fade-right"
       data-aos-duration="700" 
       data-aos-once="true" 
       data-aos-delay="400"className='flex flex-col lg:flex-row justify-between items-center mx-auto my-10 group text-center lg:text-start h-[40rem]'>
