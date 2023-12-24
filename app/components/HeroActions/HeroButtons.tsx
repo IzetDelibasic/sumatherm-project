@@ -8,7 +8,7 @@ import Link from "next/link";
 import { MdOutlineArrowForward } from "react-icons/md";
 const Button = dynamic(() => import("@/app/components/Button"));
 
-const HeroButtons = () => {
+const   HeroButtons = () => {
   return (
     <div className="flex flex-col items-center justify-center md:flex-row md:justify-start md:w-[30rem] lg:w-[40rem] w-[90%] mx-auto md:mx-0">
       <Link href="#contactSection">
@@ -23,14 +23,14 @@ const HeroButtons = () => {
             <div className="absolute inset-0 bg-neutral-100 w-full transform origin-right transition-transform duration-300 group-hover:scale-x-0 z-[-1]"></div>
           </Button>
         </Link>
-      <Button
-        className="relative bg-red-600 text-black font-medium lg:py-[1.6rem] py-[1rem] lg:px-[2rem] px-[5rem] md:px-[1rem] rounded-[3rem] group overflow-hidden z-[1] md:ml-[20px] hover:border-opacity-0 hover:border-transparent"
-        iconClassName=""
-        title="Apply to work"
-        titleClassName="group-hover:text-white font-subtitle"
-      >
-        <div className="absolute inset-0 bg-neutral-100 w-full transform origin-right transition-transform duration-300 group-hover:scale-x-0 z-[-1]"></div>
-      </Button>
+        <Button
+          className="relative bg-red-600 text-black font-medium lg:py-[1.6rem] py-[1rem] lg:px-[2rem] px-[5rem] md:px-[1rem] rounded-[3rem] group overflow-hidden z-[1] md:ml-[20px] hover:border-opacity-0 hover:border-transparent"
+          iconClassName=""
+          title="Apply to work"
+          titleClassName="group-hover:text-white font-subtitle"
+        >
+          <div className="absolute inset-0 bg-neutral-100 w-full transform origin-right transition-transform duration-300 group-hover:scale-x-0 z-[-1]"></div>
+        </Button>
     </div>
   );
 };
