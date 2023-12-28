@@ -46,9 +46,8 @@ const ProjectsComponent = () => {
     id='projectsSection'>
       <div 
       data-aos="fade-right"
-      data-aos-duration="700" 
+      data-aos-duration="200" 
       data-aos-once="true" 
-      data-aos-delay="400"
       className='lg:flex lg:items-center lg:justify-between top-[4rem] right-[6rem] text-center lg:text-start'>
         <div className='flex flex-col lg:w-[50%]'>
           <div className='mb-[0.5rem] font-medium font-subtitle'>EXCLUSIVE BENEFITS</div>
