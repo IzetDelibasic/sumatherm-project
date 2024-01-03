@@ -4,10 +4,7 @@ import React, { useState, useEffect } from 'react';
 // -Constants-
 import { projectsConstant } from '@/utils/constants/projectsConstant';
 import { aboutUsConstant } from '@/utils/constants/aboutConstant';
-import { projectPhotoOne, projectPhotoTwo } from '@/utils/constants/imagesConstants';
 // -Buttons-
-import ProjectButtons from '@/app/components/ProjectsAction/ProjectButtons';
-import Button from '@/app/components/Button';
 import ArrowButton from '@/app/components/ProjectsActionTwo/ArrowButton';
 // -Icons-
 import { MdOutlineArrowBack, MdOutlineArrowForward } from 'react-icons/md';

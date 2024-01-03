@@ -1,6 +1,10 @@
+// -React-
 import React from 'react';
+// -Constants-
 import { aboutUsImage } from '@/utils/constants/imagesConstants';
+// -Next-
 import Link from 'next/link';
+// -Components-
 import Button from '@/app/components/Button'
 
 const AboutUs = () => {

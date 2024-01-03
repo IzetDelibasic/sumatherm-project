@@ -3,7 +3,6 @@
   // -Components-
   import Header from "@/app/components/Header/Header";
   import HeroTwo from "@/app/components/HeroSection/HeroTwo";
-  import Sponsors from "@/app/components/Sponsors/Sponsors";
   import Services from "@/app/components/Services/Services";
   import AboutUs from "@/app/components/AboutUs/AboutUs";
   import ContactUs from "@/app/components/ContactUs/ContactUs";

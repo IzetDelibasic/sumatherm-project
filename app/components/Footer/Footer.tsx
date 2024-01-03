@@ -13,9 +13,6 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaYoutubeSquare } from "react-icons/fa";
 
-
-
-
 const Footer = () => {
   return (
     <div className='bg-blue-950'>

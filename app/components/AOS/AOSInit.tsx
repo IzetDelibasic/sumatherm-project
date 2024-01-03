@@ -1,6 +1,8 @@
 "use client";
+// -Aos-
 import AOS from "aos";
 import "aos/dist/aos.css"; // DON'T FORGET IMPORTING "aos.css"
+// -React-
 import { useLayoutEffect } from "react";
 
 const AOSInit = () => {

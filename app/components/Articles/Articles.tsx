@@ -1,6 +1,8 @@
+// -React-
 import React from 'react'
-import Button from '@/app/components/Button'
+// -Next-
 import Image from 'next/image'
+// -Constants-
 import { certificateImage } from '@/utils/constants/imagesConstants'
 
 const Articles = () => {

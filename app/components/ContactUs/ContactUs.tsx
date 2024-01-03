@@ -1,6 +1,10 @@
+// -React-
 import React from "react";
+// -Next-
 import Image from "next/image";
+// -Constants-
 import { workerImage } from "@/utils/constants/imagesConstants";
+// -Components-
 import SubscribeButton from "@/app/components/SubscribeButton/SubscribeButton";
 
 const ContactUs = () => {

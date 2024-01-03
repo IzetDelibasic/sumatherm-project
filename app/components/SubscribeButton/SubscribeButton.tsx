@@ -3,7 +3,7 @@
 import React from 'react'
 // -Next-
 import dynamic from 'next/dynamic';
-
+// -Button component-
 const Button = dynamic(() => import("@/app/components/Button/Button"));
 
 const SubscribeButton = () => {
