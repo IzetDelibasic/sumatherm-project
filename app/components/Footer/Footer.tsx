@@ -71,10 +71,18 @@ const Footer = () => {
           <div className='text-white lg:text-[15px] text-[15px] font-lighter px-[1rem] font-about'>84489 Burghausen</div>
           <div className='text-white lg:text-[15px] text-[15px] font-lighter px-[1rem] font-about'>Telefon: +49 (0) 8677/ 908 94-0</div>
           <div className='flex py-[1rem] lg:ml-[1rem] mx-auto lg:mx-0'>
-            <FaFacebook className='text-white h-[2rem] w-[2rem] mr-[0.5rem]' />
-            <FaTwitterSquare className='text-white h-[2rem] w-[2rem] mr-[0.5rem]' />
-            <FaInstagramSquare className='text-white h-[2rem] w-[2rem] mr-[0.5rem]' />
-            <FaYoutubeSquare className='text-white h-[2rem] w-[2rem] mr-[0.5rem]' />
+            <Link href='https://www.facebook.com/'>
+              <FaFacebook className='text-white h-[2rem] w-[2rem] mr-[0.5rem] cursor-pointer'/>
+            </Link>
+            <Link href='https://twitter.com/'>
+              <FaTwitterSquare className='text-white h-[2rem] w-[2rem] mr-[0.5rem] cursor-pointer'/>
+            </Link>
+            <Link href='https://www.instagram.com/'>
+              <FaInstagramSquare className='text-white h-[2rem] w-[2rem] mr-[0.5rem] cursor-pointer'/>
+            </Link>
+            <Link href='https://www.youtube.com/'>
+              <FaYoutubeSquare className='text-white h-[2rem] w-[2rem] mr-[0.5rem] cursor-pointer'/>
+            </Link>
           </div>
         </div>
 
